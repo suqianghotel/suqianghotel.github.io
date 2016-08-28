@@ -27,6 +27,3 @@ github_username:  suqianghotel
 # Build settings
 markdown: kramdown
 theme: minima
-
-
-favicon: logo.ico
