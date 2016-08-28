@@ -1,20 +1,20 @@
 <!-- sidebar.html -->
 <header class="sidebar-header" role="banner">
 	<a href="{{ site.BASE_PATH }}/">
-		<img src="http://www.gravatar.com/avatar/{{site.author.email_md5}}?s=150" class="img-circle" />
+		<img src="{{ site.BASE_PATH }}/assets/images/sq.jpg" class="img-circle" />
 	</a>
-	<h3 class="title">
+	<h3 class="title" style="margin-top:50px;">
         <a href="{{ site.BASE_PATH }}/">{{ site.title }}</a>
     </h3>
 </header>
 
 {% if site.author.bio %}
-<div id="bio" class="text-center">
+<div id="bio" class="text-center" style="margin-top:20px;">
 	{{ site.author.bio }}
 </div>
 {% endif %}
 
-<div id="contact-list" class="text-center">
+<div id="contact-list" class="text-center" style="margin-top:20px;">
 	<ul class="list-unstyled list-inline">
 		{% if site.author.github %}
 		<li>
