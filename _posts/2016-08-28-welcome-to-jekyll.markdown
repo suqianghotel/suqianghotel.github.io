@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2016-08-27 14:48:01 +0800
+date:   2016-08-28 13:07:25 +0800
+published: true
 categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
