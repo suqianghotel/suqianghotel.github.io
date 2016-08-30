@@ -12,7 +12,7 @@ title: 阶前梧叶
 defaults:
   -
     scope:
-      path: "" # empty string for all filesddd
+      path: "" # empty string for all files
     values:
       title: 阶前梧叶
 
